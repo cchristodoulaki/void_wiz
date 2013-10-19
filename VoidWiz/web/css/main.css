@@ -1,0 +1,145 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.loading {
+  font-size: 2em;
+  fill: #000000;
+}
+.loadingbox{fill:#000000;stroke:#000000;stroke-width:5;opacity:0.3;}
+
+.nodetext { pointer-events: none; 
+            font: 10px sans-serif; 
+            stroke-width: 0px;
+            fill: #333333;}
+.node{
+    cursor: move;
+  fill: #ccc;
+  stroke: #333333;
+  stroke-width: 1.5px;
+}
+.node.fixed {
+  fill: #f00;
+}
+.node.zoomed{
+    fill: #EFF011;
+  /*stroke: #000;*/
+  /*stroke-width: 2.5px;*/
+}
+.node.diagnosis {
+    fill:brown;
+}
+.node.patientName {
+    fill:#337147;
+}
+.node.doctorName {
+    fill:blue;
+}
+.node.type4 {
+    fill:red;
+}
+
+.node.ctid {
+    fill:#6ac6d6;
+}
+
+.node.drug {
+    color:green;
+    fill:green;
+}
+
+.node.country {
+    color: darkmagenta;
+    fill:darkmagenta;
+}
+
+.node.medcondition {
+    color:orange;
+    fill:orange;
+}
+.node.tupleId {
+    fill:blue;
+}
+path.link {
+    fill: none;
+}
+.new { stroke: yellow;/*#FF1493;(pink)*/
+    stroke-width: 4px;}
+.old { stroke: #666;
+    stroke-width: 1.5px;}
+
+#incomplete{
+    color: lightcoral;  
+    fill: lightcoral;
+    stroke-width: 0.5px;
+}
+.node.incompleteTupleKey{
+    color: lightcoral;  
+    fill: lightcoral;
+    stroke-width: 0.5px;
+}
+#graphViz{border:2px solid #999;
+          padding:10px 10px; 
+          box-shadow: 5px 5px 5px #ccc;
+          border-radius:15px;}
+.graphviz{
+height:650px;
+}
+.nomargin{margin-left: 0px;}
+.linkInfo{}
+
+.linkfade{
+    stroke :#e0e4ea;
+}
+
+.modal-backdrop, .modal-backdrop.fade.in {
+    opacity: 0.4;
+}
+
+div#pop-up {
+	display: none;
+	position:absolute;
+	color: white;
+	font-size: 14px;
+	background: rgba(0,0,0,0.5);
+	padding: 5px 10px 5px 10px;
+	-moz-border-radius: 8px 8px;
+	border-radius: 8px 8px;
+}
+div#pop-up-title {
+	font-size: 15px;
+	max-width:500px;
+        min-width:200px;
+	margin-bottom: 4px;
+	font-weight: bolder;
+}
+div#pop-up-content {
+	font-size: 12px;
+}
+div#pop-desc {
+	width:350px;
+}
+div#pop-img {
+	font-size: 30px;
+	font-weight: bolder;
+}
+
+#filtered_data{margin-top: 20px;}
+
+colgroup col.success {
+  background-color: #dff0d8;
+}
+colgroup col.error{
+  background-color: #f2dede;
+}
+colgroup col.warning {
+  background-color: #fcf8e3;
+}
+colgroup col.info {
+  background-color: #d9edf7;
+}

@@ -1,0 +1,20 @@
+{"nodes": [
+        {"name": "id 1", "type": 1, "attribute": 265000},
+        {"name": "id 3", "type": 1, "attribute": 23000},
+        {"name": "Lisa", "type": 2, "attribute": 115000},
+        {"name": "Alice", "type": 2, "attribute": 312000},
+        {"name": "id 5", "type": 3, "img_href": "http://a1.twimg.com/profile_images/1363612570/City_of_Chicago_Logo_normal.jpg"},
+        {"name": "Action 1", "type": 4},
+        {"name": "Action 2", "type": 4},
+        {"name": "Department of Environment", "type": 3, "img_href": "http://a1.twimg.com/profile_images/1363612570/City_of_Chicago_Logo_normal.jpg"}
+    ],
+    "links": [
+        {"source": 0, "target": 2, "value": 10},
+        {"source": 0, "target": 3, "value": 10},
+        {"source": 1, "target": 2, "value": 10},
+        {"source": 2, "target": 4, "value": 10},
+        {"source": 4, "target": 7, "value": 10},
+        {"source": 4, "target": 5, "value": 10},
+        {"source": 4, "target": 6, "value": 10}
+    ]
+}
